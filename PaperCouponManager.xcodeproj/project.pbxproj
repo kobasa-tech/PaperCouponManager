@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0041012726F6ED00D0A1C8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0041002726F6ED00D0A1C8 /* ListViewController.swift */; };
+		0B0041032726F79400D0A1C8 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0041022726F79400D0A1C8 /* CalendarViewController.swift */; };
+		0B0041052726F7C500D0A1C8 /* UsedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0041042726F7C500D0A1C8 /* UsedViewController.swift */; };
+		0B0041072726F7F800D0A1C8 /* TrashedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0041062726F7F800D0A1C8 /* TrashedViewController.swift */; };
 		0B2AF78127255AAA00E7E766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2AF78027255AAA00E7E766 /* AppDelegate.swift */; };
 		0B2AF78327255AAA00E7E766 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2AF78227255AAA00E7E766 /* SceneDelegate.swift */; };
-		0B2AF78527255AAA00E7E766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2AF78427255AAA00E7E766 /* ViewController.swift */; };
+		0B2AF78527255AAA00E7E766 /* SegementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2AF78427255AAA00E7E766 /* SegementViewController.swift */; };
 		0B2AF78827255AAA00E7E766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2AF78627255AAA00E7E766 /* Main.storyboard */; };
 		0B2AF78A27255AAD00E7E766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2AF78927255AAD00E7E766 /* Assets.xcassets */; };
 		0B2AF78D27255AAD00E7E766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2AF78B27255AAD00E7E766 /* LaunchScreen.storyboard */; };
+		6DEC85016602920F3D39919C /* Pods_PaperCouponManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912BC4780B8516EC54159E9E /* Pods_PaperCouponManager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B0041002726F6ED00D0A1C8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		0B0041022726F79400D0A1C8 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		0B0041042726F7C500D0A1C8 /* UsedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedViewController.swift; sourceTree = "<group>"; };
+		0B0041062726F7F800D0A1C8 /* TrashedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashedViewController.swift; sourceTree = "<group>"; };
 		0B2AF77D27255AAA00E7E766 /* PaperCouponManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperCouponManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2AF78027255AAA00E7E766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B2AF78227255AAA00E7E766 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B2AF78427255AAA00E7E766 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B2AF78427255AAA00E7E766 /* SegementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegementViewController.swift; sourceTree = "<group>"; };
 		0B2AF78727255AAA00E7E766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B2AF78927255AAD00E7E766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B2AF78C27255AAD00E7E766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B2AF78E27255AAD00E7E766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912BC4780B8516EC54159E9E /* Pods_PaperCouponManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaperCouponManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC5605753B7849EA6905016 /* Pods-PaperCouponManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperCouponManager.release.xcconfig"; path = "Target Support Files/Pods-PaperCouponManager/Pods-PaperCouponManager.release.xcconfig"; sourceTree = "<group>"; };
+		E5D435E58E2FD433902499C3 /* Pods-PaperCouponManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperCouponManager.debug.xcconfig"; path = "Target Support Files/Pods-PaperCouponManager/Pods-PaperCouponManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DEC85016602920F3D39919C /* Pods_PaperCouponManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B0040FD2726E8DA00D0A1C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B0040FE2726E8FA00D0A1C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B2AF78027255AAA00E7E766 /* AppDelegate.swift */,
+				0B2AF78227255AAA00E7E766 /* SceneDelegate.swift */,
+				0B2AF78427255AAA00E7E766 /* SegementViewController.swift */,
+				0B0041002726F6ED00D0A1C8 /* ListViewController.swift */,
+				0B0041022726F79400D0A1C8 /* CalendarViewController.swift */,
+				0B0041042726F7C500D0A1C8 /* UsedViewController.swift */,
+				0B0041062726F7F800D0A1C8 /* TrashedViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0B0040FF2726E91400D0A1C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B2AF78B27255AAD00E7E766 /* LaunchScreen.storyboard */,
+				0B2AF78627255AAA00E7E766 /* Main.storyboard */,
+				0B2AF78927255AAD00E7E766 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0B2AF77427255AAA00E7E766 = {
 			isa = PBXGroup;
 			children = (
 				0B2AF77F27255AAA00E7E766 /* PaperCouponManager */,
 				0B2AF77E27255AAA00E7E766 /* Products */,
+				47B295ACDE95D6EA482AEE39 /* Pods */,
+				9BCFCA03FBE2A4C3EA4B89C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +102,29 @@
 		0B2AF77F27255AAA00E7E766 /* PaperCouponManager */ = {
 			isa = PBXGroup;
 			children = (
-				0B2AF78027255AAA00E7E766 /* AppDelegate.swift */,
-				0B2AF78227255AAA00E7E766 /* SceneDelegate.swift */,
-				0B2AF78427255AAA00E7E766 /* ViewController.swift */,
-				0B2AF78627255AAA00E7E766 /* Main.storyboard */,
-				0B2AF78927255AAD00E7E766 /* Assets.xcassets */,
-				0B2AF78B27255AAD00E7E766 /* LaunchScreen.storyboard */,
+				0B0040FD2726E8DA00D0A1C8 /* Model */,
+				0B0040FF2726E91400D0A1C8 /* View */,
+				0B0040FE2726E8FA00D0A1C8 /* Controller */,
 				0B2AF78E27255AAD00E7E766 /* Info.plist */,
 			);
 			path = PaperCouponManager;
+			sourceTree = "<group>";
+		};
+		47B295ACDE95D6EA482AEE39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5D435E58E2FD433902499C3 /* Pods-PaperCouponManager.debug.xcconfig */,
+				BAC5605753B7849EA6905016 /* Pods-PaperCouponManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9BCFCA03FBE2A4C3EA4B89C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				912BC4780B8516EC54159E9E /* Pods_PaperCouponManager.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +134,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B2AF79127255AAD00E7E766 /* Build configuration list for PBXNativeTarget "PaperCouponManager" */;
 			buildPhases = (
+				337019A1579A926B3E55FEA7 /* [CP] Check Pods Manifest.lock */,
 				0B2AF77927255AAA00E7E766 /* Sources */,
 				0B2AF77A27255AAA00E7E766 /* Frameworks */,
 				0B2AF77B27255AAA00E7E766 /* Resources */,
@@ -133,14 +194,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		337019A1579A926B3E55FEA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaperCouponManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B2AF77927255AAA00E7E766 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B2AF78527255AAA00E7E766 /* ViewController.swift in Sources */,
+				0B0041032726F79400D0A1C8 /* CalendarViewController.swift in Sources */,
+				0B2AF78527255AAA00E7E766 /* SegementViewController.swift in Sources */,
 				0B2AF78127255AAA00E7E766 /* AppDelegate.swift in Sources */,
+				0B0041012726F6ED00D0A1C8 /* ListViewController.swift in Sources */,
 				0B2AF78327255AAA00E7E766 /* SceneDelegate.swift in Sources */,
+				0B0041072726F7F800D0A1C8 /* TrashedViewController.swift in Sources */,
+				0B0041052726F7C500D0A1C8 /* UsedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +374,7 @@
 		};
 		0B2AF79227255AAD00E7E766 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D435E58E2FD433902499C3 /* Pods-PaperCouponManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +386,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +398,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0B2AF79327255AAD00E7E766 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC5605753B7849EA6905016 /* Pods-PaperCouponManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +416,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +428,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
