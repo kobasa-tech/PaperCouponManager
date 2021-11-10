@@ -33,6 +33,7 @@
 		0B2AF78927255AAD00E7E766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B2AF78C27255AAD00E7E766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B2AF78E27255AAD00E7E766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC01B78273B80BE000E6A7C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		912BC4780B8516EC54159E9E /* Pods_PaperCouponManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaperCouponManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC5605753B7849EA6905016 /* Pods-PaperCouponManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperCouponManager.release.xcconfig"; path = "Target Support Files/Pods-PaperCouponManager/Pods-PaperCouponManager.release.xcconfig"; sourceTree = "<group>"; };
 		E5D435E58E2FD433902499C3 /* Pods-PaperCouponManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperCouponManager.debug.xcconfig"; path = "Target Support Files/Pods-PaperCouponManager/Pods-PaperCouponManager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 				0B0040FF2726E91400D0A1C8 /* View */,
 				0B0040FE2726E8FA00D0A1C8 /* Controller */,
 				0B2AF78E27255AAD00E7E766 /* Info.plist */,
+				0BC01B78273B80BE000E6A7C /* README.md */,
 			);
 			path = PaperCouponManager;
 			sourceTree = "<group>";
