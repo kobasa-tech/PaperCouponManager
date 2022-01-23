@@ -17,6 +17,7 @@
 		0B2AF78827255AAA00E7E766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2AF78627255AAA00E7E766 /* Main.storyboard */; };
 		0B2AF78A27255AAD00E7E766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2AF78927255AAD00E7E766 /* Assets.xcassets */; };
 		0B2AF78D27255AAD00E7E766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2AF78B27255AAD00E7E766 /* LaunchScreen.storyboard */; };
+		0B35393E279D83FA006237E4 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35393D279D83FA006237E4 /* NavigationController.swift */; };
 		6DEC85016602920F3D39919C /* Pods_PaperCouponManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912BC4780B8516EC54159E9E /* Pods_PaperCouponManager.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		0B2AF78927255AAD00E7E766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B2AF78C27255AAD00E7E766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B2AF78E27255AAD00E7E766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B35393D279D83FA006237E4 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		912BC4780B8516EC54159E9E /* Pods_PaperCouponManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaperCouponManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC5605753B7849EA6905016 /* Pods-PaperCouponManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperCouponManager.release.xcconfig"; path = "Target Support Files/Pods-PaperCouponManager/Pods-PaperCouponManager.release.xcconfig"; sourceTree = "<group>"; };
 		E5D435E58E2FD433902499C3 /* Pods-PaperCouponManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperCouponManager.debug.xcconfig"; path = "Target Support Files/Pods-PaperCouponManager/Pods-PaperCouponManager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				0B0041022726F79400D0A1C8 /* CalendarViewController.swift */,
 				0B0041042726F7C500D0A1C8 /* UsedViewController.swift */,
 				0B0041062726F7F800D0A1C8 /* TrashedViewController.swift */,
+				0B35393D279D83FA006237E4 /* NavigationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B0041032726F79400D0A1C8 /* CalendarViewController.swift in Sources */,
+				0B35393E279D83FA006237E4 /* NavigationController.swift in Sources */,
 				0B2AF78527255AAA00E7E766 /* SegementViewController.swift in Sources */,
 				0B2AF78127255AAA00E7E766 /* AppDelegate.swift in Sources */,
 				0B0041012726F6ED00D0A1C8 /* ListViewController.swift in Sources */,
